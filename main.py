@@ -1,5 +1,8 @@
 import socket
 
+ip = input("enter server ip")
+print(ip)
+
 sock = socket.socket()
 sock.connect(("localhost", 2345))
 
